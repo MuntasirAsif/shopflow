@@ -6,7 +6,7 @@ import (
 	"github.com/muntasirasif/shopflow/database"
 )
 
-func main(){
+func main() {
 	config.LoadEnv()
 	db, err := database.Connect()
 	if err != nil {
